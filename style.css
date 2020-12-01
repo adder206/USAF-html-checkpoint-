@@ -1,0 +1,51 @@
+body {
+    background-color: white'
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: black
+}
+
+header {
+    background: black;
+    display: flex;
+    justify-content: flex-start;
+    font: 1000;
+}
+
+
+nav {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
