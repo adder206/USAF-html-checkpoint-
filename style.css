@@ -49,3 +49,15 @@ form {
     display: flex;
     justify-content: center;
 }
+
+.results {
+    display: flex;
+    align-items: baseline;
+}
+
+h3 {
+    color: yellow;
+}
+.img-guardians {
+    width: 50px;
+} 
