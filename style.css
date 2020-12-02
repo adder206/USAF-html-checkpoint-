@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-.container {
+.container-header {
     width: 80%;
     margin: 0 auto;
     background-color: black
@@ -31,13 +31,18 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 10px;
     padding-top: 30px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+}
+
+nav ul input {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .login {
@@ -50,14 +55,26 @@ form {
     justify-content: center;
 }
 
+.card { 
+    width: auto;
+}
 .results {
     display: flex;
     align-items: baseline;
 }
 
 h3 {
+    background: gray;
     color: yellow;
 }
-.img-guardians {
-    width: 50px;
-} 
+
+
+.wrapper-movies1 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-movies2 {
+    display: flex;
+    justify-content: center;
+}
