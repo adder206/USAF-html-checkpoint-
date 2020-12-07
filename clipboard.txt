@@ -1,0 +1,16 @@
+<main> 
+    <div class = "login">
+        <h2>Login</h2>
+    </div>
+    <div class = "form">
+        <form id="email-password">
+        <label>Email </label>
+        <input email = "email" type="text"/>
+        </br>
+        <label>Password</label>
+        <input password = "password" type="text"/>
+        </br>
+        <button id ="login">Login</button>
+    </form>
+    </div>
+</main> 
